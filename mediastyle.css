@@ -1,0 +1,273 @@
+/* MEDIA */
+@media only screen and (max-width: 768px) {
+    /* HEADER */
+    .head {
+        max-width: 728px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .menu {
+        display: none;
+    }
+    .menu.active {
+        display: grid;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        max-width: 200px;
+        height: 500px;
+        width: 90%;
+        background-color: white;
+        z-index: 9999;
+    }
+    .menu.active a {
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+    .menu-icon {
+        display: block;
+        width: 50px;
+        height: 50px;
+        color: black;
+        cursor: pointer;
+        background-color: white;
+        position: relative;
+        top: 7px;
+    }
+
+    #menu-icon-button {
+        width: 50px;
+        height: 50px;
+        background: none;
+        border: 1px solid black;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-icon-line {
+        width: 30px;
+        height: 3px;
+        background-color: black;
+        margin: 5px auto;
+    }
+    /* /HEADER */
+
+    /* FOOTER */
+    .footer-container {
+        max-width: 728px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .table {
+        display: grid;
+        max-width: 728px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .table1,
+    .table2,
+    .table3,
+    .table4 {
+        width: 90%;
+        max-width: 728px;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .table h4 { 
+        margin: 0 0 10px;
+    }
+    /* /FOOTER */
+
+    /* HOME */
+
+    .section1, .section2 {
+        max-width: 728px;
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+    }
+    .sec-box {
+        display: grid;
+        max-width: 728px;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    #detail {
+        position: absolute;
+        left: -15px;
+        max-width: 728px;
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+
+    }
+    .box1 {
+        height: auto;
+    }
+    .box2 {
+        height: auto;
+    }
+
+    .box2-container {
+        max-width: 728px;
+        height: auto;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .box2-container a {
+        text-align: left;
+        bottom: 0;
+    }
+
+    .box2-img {
+        display: grid;
+        max-width: 728px;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .box2-img img {
+        max-width: 728px;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .box3 {
+        height: auto;
+    }
+
+    .box3-container {
+        display: grid;
+        max-width: 728px;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .inf3-table {
+        display: grid;
+        max-width: 728px;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .inf3-table tr {
+        display: grid;
+        max-width: 728px;
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+        width: 90%;
+    } 
+    .inf3-table td {
+        padding: 20px 0;
+    }
+    .box4 {
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .box4-container {
+        display: grid;
+        max-width: 728px;
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .box4-img img {
+        max-width: 728px;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .box4-inf {
+        max-width: 728px;
+        height: auto;
+        margin: 0 auto;
+    }
+    /* /HOME */
+
+    /* CATALOGUE */
+    .box_2-container {
+        display: grid;
+        max-width: 728px;
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+    }
+    .box_2-container-img{
+        display: grid;
+        width: 90%;
+        height: auto;
+    }
+    .box_2-img img {
+        max-width: 720px;
+        width: 90%;
+    }
+    /* /CATALOGUE */ 
+
+    /* ATELIER */
+    .box_3-container, .box_3-4-container {
+        max-width: 728px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box_3-container-img {
+        display: grid;
+        max-width: 728px;
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+    }
+    .box_3-container-img img {
+        max-width: 720px;
+        width: 90%;
+        height: auto;
+    }
+    .box_3-table {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box_3-tab {
+        width: 90%;
+        max-width: 720px;
+        height: auto;
+    }
+    /* /ATELIER */
+
+    /* INQUIRE */
+    .box_4-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 728px;
+       width: 90%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .box_4-inf {
+        max-width: 720px;
+        width: 90%;
+        height: auto;
+    }
+    .sms_server1, .sms_server2 {
+        display: grid;
+        max-width: 728px;
+        width: 90%;
+        height: auto;
+    }
+}
